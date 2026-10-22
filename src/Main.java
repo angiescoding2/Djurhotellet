@@ -3,6 +3,10 @@
 // [x] 3. Förhindra att två katter med samma chipnummer checkas in.
 // [x] 4. Visa namn, ras och chipnummer för alla incheckade katter.
 // [x] 5. Visa ett meddelande om hotellet är tomt.
+// [x] 6. Säga till om hotellet är helt tomt när vi ropar upp
+// [x] 7. Göra så att hotellet kan leta upp en katt på namn (eller svara tomt om den saknas)
+// [ ] 8. Bygga meny-loopen som snurrar med Scanner tills vi väljer att avsluta
+// [ ] 9. Koppla ihop val 1-4 med hotellet (och skydda sökningen i val 3 mot krasch med en grindvakt)
 
 public class Main {
     public static void main(String[] args) {
