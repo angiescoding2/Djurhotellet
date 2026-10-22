@@ -7,6 +7,11 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Välkommen till Djurhotellet!");
+        KattHotell hotell = new KattHotell();
+        hotell.checkaIn(new Katt("Misse", "Ragdoll", 1001));
+        hotell.checkaIn(new Katt("Luna", "Siamese", 1002));
+        hotell.checkaIn(new Katt("Simba", "Bengal", 1001));
+        System.out.println("Antal incheckade katter: " + hotell.antalKatter());
 
     }
 }
